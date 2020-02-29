@@ -1,0 +1,81 @@
+   
+logo {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 5px;
+    width: 5px;
+}
+
+/*Header - Navbar*/
+
+nav {
+    list-style-type: none;
+    align-content: center;
+    background-color: #ff4800; 
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: grey;
+}
+
+
+header {
+    background: white;
+    color: rgb(196, 40, 20);   
+    text-align: left;
+    line-height:5px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    color: black
+}
+
+.column {
+    align-content: center;
+    float: left;
+    width: 25%;
+    padding: 0px;
+}
+  
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column1 {
+    align-content: center;
+    float: left;
+    width: 25%;
+    margin-left: 100px;
+}
+
+.footer {
+    text-align: center;
+    color: maroon;
+}
